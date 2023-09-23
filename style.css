@@ -1,0 +1,130 @@
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 15px 80px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+.logo{
+    width: 120px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.nav-search-btn{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    margin: -35px;
+    background-color: rgb(222, 39, 91);
+    border-radius: 50%;
+    padding: 7px;
+}
+.nav-btn{
+    border: 1px solid lightgray;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.nav-btn:hover{
+    background-color: whitesmoke;
+}
+.nav-btn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.nav-btn-2:hover{
+    background-color: whitesmoke;
+}
+.logo-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.logo-3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+.logo-3:hover{
+    background-color: whitesmoke;
+}
+.logo-2-icon{
+    margin-left: -180px;
+}
+.nav-heading{
+    font-size: 20px;
+    color: gray;
+}
+.nav-card-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 30px;
+}
+.card-2-logos{
+    width: 30px;
+}
+.card-2-btn-1{
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+}
+.card-2-btn{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 15px 40px;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+.card-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+.location{
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1px;
+}
+.date,.distance{
+    color: gray;
+    margin: 0px;
+}
+.card-image{
+    position: relative;
+}
+.icon-hrt{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+}
